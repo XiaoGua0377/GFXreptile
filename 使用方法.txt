@@ -1,0 +1,26 @@
+打開CMD輸入
+
+●爬取使用者指令:
+instaloader.exe (使用者ID)   可爬取該使用者照片、貼文、影音
+
+
+如果不想要貼文資訊的話可以加上 --no-metadata-json  
+範例:instaloader.exe (使用者ID) --no-metadata-json
+
+果再不要 txt 文件的話可以再加上 --no-captions
+範例:instaloader.exe (使用者ID) --no-metadata-json --no-captions
+
+
+
+●爬取所有 hashtag(標記)指令:
+instaloader.exe ("hashtag標記")
+範例:instaloader.exe "#taiwan"
+
+
+
+您還可以使用
+--stories 下載使用者的故事 
+--tagged 下載被標記的內容 
+--igtv 下載 IGTV 
+--geotags 下載標記的地點
+--post-filter 來限制貼文日期
